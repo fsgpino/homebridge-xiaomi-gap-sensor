@@ -1,4 +1,5 @@
 # homebridge-xiaomi-gap-sensor
+[![npm version](https://badge.fury.io/js/homebridge-xiaomi-gap-sersor.svg)](https://badge.fury.io/js/homebridge-xiaomi-gap-sersor)
 
 a homebridge(https://github.com/nfarina/homebridge) plugin that get Xiaomi GAP Sensor temperature & humidity.
 
@@ -17,7 +18,10 @@ BLE device can only be supported by Raspberry Pi 3. If you want to make Yeelight
 sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
 ``` 
 
-5. update homebridge-xiaomi-gap-sensor to latest version and config homebridge plugin.
+5. Install homebridge-xiaomi-gap-sensor and config homebridge plugin.
+```
+sudo npm install -g homebridge-xiaomi-gap-sensor
+``` 
 
 ### Configuration
 You need to add this configuration to homebridge.
@@ -40,5 +44,7 @@ To find the mac address use the following command.
 This sensor is fully supported in normal operation. The plugin is able to read Temperature, Humidity and battery levels from frames.
 
 ## Version Logs
+### 0.0.2
+1.publish to www.npmjs.com.
 ### 0.0.1
 1.get Xiaomi GAP Sensor temperature, humidity & battery.   
