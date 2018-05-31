@@ -1,5 +1,5 @@
 # homebridge-xiaomi-gap-sensor
-[![npm version](https://badge.fury.io/js/homebridge-xiaomi-gap-sersor.svg)](https://badge.fury.io/js/homebridge-xiaomi-gap-sersor)
+[![npm version](https://badge.fury.io/js/homebridge-xiaomi-gap-sensor.svg)](https://badge.fury.io/js/homebridge-xiaomi-gap-sensor)
 
 a homebridge(https://github.com/nfarina/homebridge) plugin that get Xiaomi GAP Sensor temperature & humidity.
 
@@ -44,6 +44,8 @@ To find the mac address use the following command.
 This sensor is fully supported in normal operation. The plugin is able to read Temperature, Humidity and battery levels from frames.
 
 ## Version Logs
+### 0.0.4
+1.fix name.
 ### 0.0.3
 1.fix bug.
 ### 0.0.2
