@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-xiaomi-gap-sersor",
+  "name": "homebridge-xiaomi-gap-sensor",
   "version": "0.0.3",
   "description": "a homebridge(https://github.com/nfarina/homebridge) plugin that get Xiaomi GAP Sensor temperature & humidity.",
   "keywords": [
